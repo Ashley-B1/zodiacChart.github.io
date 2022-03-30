@@ -1,1 +1,1 @@
-# zodiacChart.githiub.io
+# zodiacChart.github.io
