@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+body, html{
+    height: 100%;
+    margin: 0;
+}
+
+.space-bg{
+    background-image: url('images/rising-sign/background/background.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.article{
+    background-color: rgb(0, 0, 0,);
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    border: 3px solid white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main-content{
+    padding: 10px;
+    width: 65%;
+}
+
+.top-page{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wazzup{
+    width: 45%;
+    height: fit-content;
+    text-align: center;
+    background-color: rgb(0, 0, 0,);
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    border: 3px solid white;
+    padding: 20px;
+}
+
+.wazzup h1{
+    font-size: 36px;
+}
+
+.wazzup h4{
+    margin-left: 100px;
+    margin-top: 15px;
+    font-size: 21.6px;
+}
+
+#wazzup{
+    width: 42%;
+    margin-top: 30px;
+}
+
+.welcome{
+    width: 45%;
+    height: fit-content;
+    text-align: center;
+    background-color: rgb(0, 0, 0,);
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    border: 3px solid white;
+    padding: 20px;
+}
+
+.welcome h1{
+    font-family: 'Cinzel', serif;
+}
+
+#my-house{
+    width: 60%;
+    margin-top: 25px;
+}
+
+.bottom-page{
+    margin-top: 74px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#ascend{
+    width: 26%;
+}
+
+.rules{
+    width: 35%;
+    height: fit-content;
+    text-align: center;
+    background-color: rgb(0, 0, 0,);
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    border: 3px solid white;
+    padding: 20px;
+    height: 320px;
+}
+
+.rules h2{
+    font-size: 32px;
+    font-family: 'Cinzel', serif;
+}
+
+
+.rules ul{
+    padding: 20px;
+    overflow: hidden;
+    height: 225px;
+    overflow-y: scroll;
+    line-height: 24px;
+    text-align: left;
+}
+
+.rules ul::-webkit-scrollbar{
+    background: #EBBFE5;
+}
+
+.rules ul::-webkit-scrollbar-thumb{
+    background: #9F64AA;
+}
+
+.rules ul::-webkit-scrollbar-thumb:hover{
+    background: #2E534F;
+}
+
+.rules ul li{
+    margin-top: 14px;
+    list-style-type: '♊';
+    padding-inline-start: 1ch;
+    font-size: 18px;
+}
+
+.fame{
+    width: 35%;
+    background-color: rgb(0, 0, 0,);
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    border: 3px solid white;
+    padding: 20px;
+}
+
+.fame h2{
+    font-family: 'Cinzel', serif;
+}
+
+.fame ul{
+    margin-top: 10px;
+    padding: 20px;
+    line-height: 26px;
+    overflow: hidden;
+    height: 225px;
+    overflow-y: scroll;
+    text-align: left;
+}
+
+.fame ul li{
+    list-style-type: '🤩';
+    padding-inline-start: 1ch;
+    font-size: 18px;
+}
+
+.fame ul::-webkit-scrollbar{
+    background: #EBBFE5;
+}
+
+.fame ul::-webkit-scrollbar-thumb{
+    background: #9F64AA;
+}
+
+.fame ul::-webkit-scrollbar-thumb:hover{
+    background: #2E534F;
+}
+
+#drew{
+    width: 55%;
+    margin-left: 10px;
+}
+
+#will{
+    width: 45%;
+    margin-left: 10px;
+}
+
+#amy{
+    width: 40%;
+    margin-left: 10px;
+}
+
+.match-made{
+    width: 30%;
+    background-color: rgb(0, 0, 0,);
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    border: 3px solid white;
+    padding: 20px;
+}
+
+.match-made h1{
+    text-align: center;
+    font-family: 'Cinzel', serif;
+}
+
+.match-made p{
+    margin-top: 13px;
+    text-indent: 12px;
+    line-height: 22px;
+    font-size: 18px;
+}
+
+.bio-card{
+    height: 700px;
+    padding: 20px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.bio-card::-webkit-scrollbar{
+    background: #EBBFE5;
+}
+
+.bio-card::-webkit-scrollbar-thumb{
+    background: #9F64AA;
+}
+
+.bio-card::-webkit-scrollbar-thumb:hover{
+    background: #2E534F;
+}

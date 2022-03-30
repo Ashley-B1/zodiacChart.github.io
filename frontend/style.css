@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+}
+
+.sun-sign{
+    padding: 10px;
+}
+
+html{
+    background: url(images/sun-sign/background/sunrise.jpg) no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.content{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #b79442;
+    color: white;
+    border: 3px solid white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 90%;
+    padding: 20px;
+}
+
+.left{
+    width: 30%;
+    height: fit-content;
+    padding: 10px;
+}
+
+.title{
+    padding: 10px;
+}
+
+.title h1{
+    font-size: 40px;
+}
+
+.title ul{
+    margin-top: 15px;
+    padding: 30px;
+    width: fit-content;
+    margin-left: 25px;
+}
+
+.title ul li{
+    list-style-type: '🌟';
+    padding-inline-start: 1ch;
+    font-size: 34px;
+}
+
+.traits{
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.traits h2{
+    font-size: 40px;
+}
+
+.traits ul{
+    padding: 20px;
+    width: fit-content;
+    margin-left: 35px;
+}
+
+.traits ul li{
+    list-style-type: '🔥';
+    padding-inline-start: 1ch;
+    line-height: 40px;
+}
+
+#aesthetic{
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.middle{
+    width: 30%;
+    padding: 10px
+}
+
+#shaman{
+    display: block;
+    margin: 0 auto;
+    width: 35%;
+}
+
+.purpose{
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.purpose h2{
+    font-size: 32px;
+    text-align: center;
+}
+
+.purpose p{
+    margin-top: 15px;
+    text-indent: 15px;
+}
+
+#ancestor{
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.celebs{
+    width: 30%;
+    padding: 10px;
+}
+
+.fame{
+    padding: 10px;
+}
+
+.fame h2{
+    font-size: 32px;
+}
+
+
+.fame ul{
+    padding: 20px;
+    width: fit-content;
+    margin-left: 20px;
+}
+
+.fame ul li{
+    list-style-type: '♈';
+    padding-inline-start: 1ch;
+    line-height: 40px;
+}
+
+.twin{
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.twin h2{
+    font-size: 40px;
+    text-align: center;
+}
+
+.twin p{
+    margin-top: 10px;
+    text-indent: 14px;
+}
+
+.image-container{
+    margin-top: 10px;
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.image-container img{
+    width: 30%;
+}
+
+.top-images{
+    margin-left: 100px;
+}
+
+.rising button a{
+    background: pink;
+    color: white;
+}
+
+.rising a{
+    background: pink;
+    color: white;
+}
